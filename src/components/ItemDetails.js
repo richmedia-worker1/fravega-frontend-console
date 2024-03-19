@@ -107,7 +107,7 @@ const ItemDetails = ({ match }) => {
             </div>
             <div style={{ marginBottom: '10px' }}>
                 <label style={{ display: 'inline-block', width: '150px' }}>Description: </label>
-                <input style={{ width: 'calc(100% - 160px)' }} type="text" value={item.Description} placeholder='Description' onChange={(e) => setItem({ ...item, Description: e.target.value })} />
+                <input style={{ width: 'calc(100% - 160px)' }} type="text" value={item.Description} placeholder='Description(markdown supported)' onChange={(e) => setItem({ ...item, Description: e.target.value })} />
             </div>
             <div style={{ marginBottom: '10px' }}>
                 <label style={{ display: 'inline-block', width: '150px' }}>Price: </label>

@@ -22,10 +22,13 @@ const NavLink = styled(Link)`
 
 const Navigation = () => {
   return (
-    <NavBar>
-      <NavLink to="/">Каталоги</NavLink>
-      <NavLink to="/add-catalog">Добавить каталог</NavLink>
-    </NavBar>
+    <div>
+      <NavBar>
+        <NavLink to="/">Каталоги</NavLink>
+        <NavLink to="/add-catalog">Добавить каталог</NavLink>
+      </NavBar>
+      <label style={{color:'#ff0000', marginLeft: 10}}>P.s Большие картинки лушче не грузить. Может что-то начать плохо работать</label>
+    </div>
   );
 };
 

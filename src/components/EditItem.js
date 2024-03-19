@@ -102,7 +102,7 @@ const EditItem = () => {
         </div>
         <div style={{ marginBottom: '10px' }}>
           <label style={{ display: 'inline-block', width: '150px' }}>Description: </label>
-          <input style={{ width: 'calc(100% - 160px)' }} type="text" name="Description" value={item.Description} placeholder='Description' onChange={handleChange} />
+          <input style={{ width: 'calc(100% - 160px)' }} type="text" name="Description" value={item.Description} placeholder='Description(markdown supported)' onChange={handleChange} />
         </div>
         <div style={{ marginBottom: '10px' }}>
           <label style={{ display: 'inline-block', width: '150px' }}>Price: </label>
